@@ -11,8 +11,8 @@
 }
 .task{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-evenly;
+    margin: 20px;
 }
 h2{
     font-size: 70px;
@@ -43,11 +43,21 @@ h2{
 #Checkbox{
     background-color: #4caf50;
     border-color: #4caf50;
+    width: 25px;
+    border-radius: 50%;
 }
 p{
     font-family: "Macondo", cursive;
     font-size: 30px ;
+    margin: 0;
 }
 #Delete{
-    
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-family: "Macondo", cursive;
+    color: #fff; 
+    outline: none;
+    border: none;
+    background: #1b541ac9;
 }
