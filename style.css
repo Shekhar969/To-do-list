@@ -8,11 +8,14 @@
     margin: 0 auto;
     align-content: center;
     text-align: center;
+    justify-content: center;
+    
 }
 .task{
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    padding: 20px;
 }
 h2{
     font-size: 70px;
@@ -28,6 +31,10 @@ h2{
     border: 2px solid rgb(158 180 66 / 69%);
     outline: none;
     padding: 0 10px;
+    font-family: "Macondo", cursive;
+    width: 80%;
+
+
 }
 
 #Submit{
@@ -50,6 +57,8 @@ p{
     font-family: "Macondo", cursive;
     font-size: 30px ;
     margin: 0;
+    text-decoration: line-through;
+    text-decoration-color: red;
 }
 #Delete{
     font-size: 30px;
@@ -60,4 +69,24 @@ p{
     outline: none;
     border: none;
     background: #1b541ac9;
+}
+
+.box{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%; 
+    background: #4b784a;
+}
+
+.outter{
+    padding: 3px;
+    border-radius: 50%;
+    border:3px solid rgb(188 203 125);
+    animation: grow 0.5s;
+}
+
+@keyframes grow{
+    50%{
+        scale: 1.4;
+    }
 }
