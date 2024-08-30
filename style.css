@@ -2,20 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 .container{
-    border: 2px solid ;
+    /* border: 2px solid ; */
     width: 800px ;
     height: 500px;
     margin: 0 auto;
     align-content: center;
     text-align: center;
-    justify-content: center;
-    
+    border-radius: 30px;
+    background: #fff;
+    box-shadow: 0 0 5px  #618b62;
 }
-.task{
+#taskContainer{
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
     padding: 20px;
+
+}
+.hidden {
+    display: none !important;
 }
 h2{
     font-size: 70px;
@@ -34,7 +39,6 @@ h2{
     font-family: "Macondo", cursive;
     width: 80%;
 
-
 }
 
 #Submit{
@@ -46,6 +50,7 @@ h2{
     outline: none;
     border: none;
     background: #1b541ac9;
+    cursor: pointer;
 }
 #Checkbox{
     background-color: #4caf50;
