@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   delBtn.addEventListener("click", () => {
-      taskPara.innerHTML = "is it printing ra
-      "; 
+      taskPara.innerHTML = "is it printing ra"; 
   });
 });
